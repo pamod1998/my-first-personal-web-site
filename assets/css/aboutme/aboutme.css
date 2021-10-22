@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/*=============header============*/
+
+
+header {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    padding-top: 2%;
+    z-index: 2;
+}
+
+/*=============header-img============*/
+header div {
+    width: 15%;
+    float: left;
+    margin-left: 5%;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+/*=============header-nav============*/
+#menu {
+    position: absolute;
+    margin: 0 5% 0 0;
+    right: 0;
+    width: fit-content;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    height: fit-content;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu ul li {
+    font-size: 1.2rem;
+    margin: 0 10px;
+    display: inline;
+}
+
+#menu ul li a {
+    color: #7F7F7F;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+#menu ul li:nth-child(2) a {
+    color: ghostwhite;
+    background-color: #31d181;
+}
+
+#menu ul li a:hover {
+    background-color: #d4dce4;
+    color: ghostwhite;
+}
+
+/*=============header-end============*/
+/*=============sidebar============*/
+#sidebar {
+    z-index: -1;
+    background: linear-gradient(to bottom left, #31d181, #1DCAA2);
+    width: 25%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+/*=============sidebar-end============*/
+
+/*=============profile============*/
+#profile {
+    position: absolute;
+    left: 8%;
+    width: 92%;
+    z-index: 1;
+}
+
+#profile-pic {
+    position: relative;
+    float: left;
+    border-bottom: 15px solid #31d181;
+    border-right: 15px solid #31d181;
+    border-top: 15px solid #31d181;
+    margin-top: 3%;
+    padding-top: 1%;
+    width: 340px;
+    height: 350px;
+}
+
+#profile-pic img {
+    width: 320px;
+    height: 380px;
+    box-shadow: 1px -1px 20px 0;
+}
+/*=============about-me============*/
+
+.h6 {
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-left: 498px;
+    font-size: 1.4rem;
+    background: #31d181;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.h3 {
+    font-family: sans-serif;
+    margin-left: 498px;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.article {
+    font-family: cursive;
+    position: relative;
+    margin-right: 15px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 500px;
+}
+
+.label{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+#about-1{
+    position: absolute;
+    left: 498px;
+    top: 292px;
+}
+
+#about-2{
+    position: absolute;
+    left: auto;
+    top: 292px;
+    right: 80px;
+}
+
+/*=============about-me-end============*/
+
+/*=============profile-end============*/
+
+/*=============footer============*/
+footer {
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    bottom: 0;
+}
+
+#contact {
+    float: left;
+    width: 25%;
+}
+
+#contact p {
+    text-align: center;
+    color: ghostwhite;
+    font-size: 1.25rem;
+}
+
+#social {
+    float: right;
+    width: 25%;
+}
+
+#social p {
+    font-size: 1.2rem;
+    width: fit-content;
+    float: left;
+    padding-right: 5%;
+}
+
+#social a img {
+    width: 10%;
+    padding: 3% 2% 0;
+}
+
+/*=============footer-end============*/

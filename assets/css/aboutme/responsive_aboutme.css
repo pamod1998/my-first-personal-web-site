@@ -1,0 +1,690 @@
+@media only screen and (max-width: 560px) {
+    /*=============header============*/
+    header {
+        height: 100px;
+        width: 100%;
+        margin-bottom: 40px;
+        background: linear-gradient(to bottom left, #31d181, #1DCAA2);
+        overflow: unset;
+    }
+
+    /*=============header-img============*/
+    header div {
+        width: 40%;
+        float: none;
+        margin: auto;
+    }
+
+    /*=============header-nav============*/
+    #menu {
+        position: sticky;
+        margin: 0;
+        width: 100%;
+        height: 50px;
+        padding-top: 5%;
+    }
+
+    #menu ul {
+        text-align: center;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        font-size: 0.75rem;
+        margin: 0;
+    }
+
+    #menu ul li a {
+        padding: 5px 5px;
+    }
+
+    /*=============header-end============*/
+    /*=============sidebar============*/
+    #sidebar {
+        display: none;
+    }
+
+    /*=============sidebar-end============*/
+    /*=============profile============*/
+    #profile {
+        position: relative;
+        z-index: unset;
+        width: 100%;
+        margin: auto;
+        left: 0;
+        padding-top: 10%;
+    }
+
+    #profile-pic {
+        margin: auto;
+        float: none;
+        border: 12px solid #31d181;;
+        width: 75%;
+        height: 220px;
+        padding: 0;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        margin: 2.5%;
+        padding-top: 0;
+        height: 210px;
+    }
+
+    /*=============about-me============*/
+
+    #about-me {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    #about-me > h6 {
+        margin: 10px;
+        font-size: 1.3rem;
+    }
+
+    #about-me > h3 {
+        margin: 20px 0 10px;
+        text-align: center;
+    }
+
+    .article {
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    #about-1{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 50px auto 0;
+        text-align: center;
+        line-height: 1.3;
+        width: 90%;}
+
+    #about-2{
+        position: relative;
+        line-height: 1.3;
+        left: 0;
+        text-align: center;
+        top: 0;
+        right: 0;
+        margin: auto;
+        width: 90%;
+    }
+
+    /*=============about-me-end============*/
+    /*=============profile-end============*/
+    /*=============footer============*/
+    footer {
+        margin-top: 10%;
+        height: 80px;
+        position: relative;
+        background: linear-gradient(to bottom left, #31d181, #1DCAA2);
+    }
+
+    #contact {
+        float: none;
+        width: 100%;
+    }
+
+    #contact p {
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 5px;
+    }
+
+    #social {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #social p {
+        display: none;
+    }
+
+    #social a img {
+        width: 8%;
+        padding: 0 3%;
+    }
+
+    /*=============footer-end============*/
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    /*=============header============*/
+    header {
+        height: 50px;
+    }
+
+    /*=============header-img============*/
+    header div {
+        width: 45%;
+    }
+
+    /*=============header-nav============*/
+    #menu ul li {
+        display: inline-block;
+        font-size: 0.85rem;
+    }
+
+    /*=============header-end============*/
+    /*=============profile============*/
+    #profile-pic {
+        border: 12px solid #31d181;;
+        width: 70%;
+        height: 230px;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        margin: 2.5%;
+        padding-top: 0;
+        height: 220px;
+    }
+
+
+
+    /*=============profile-end============*/
+    /*=============footer============*/
+    #contact p {
+        font-size: 1.1rem;
+    }
+
+    #social a img {
+        width: 9%;
+        padding: 0 3%;
+    }
+
+    /*=============footer-end============*/
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    /*=============header============*/
+    header {
+        height: 60px;
+    }
+
+    /*=============header-img============*/
+    header div {
+        width: 45%;
+    }
+
+    /*=============header-nav============*/
+    #menu {
+        margin: 2% 0 0;
+        padding-top: 2%;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    /*=============header-end============*/
+    /*=============profile============*/
+    #profile-pic {
+        border: 12px solid #31d181;;
+        width: 50%;
+        height: 210px;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        margin: 2.5%;
+        padding-top: 0;
+        height: 200px;
+    }
+
+    /*=============profile-end============*/
+    /*=============footer============*/
+    footer {
+        height: 90px;
+    }
+
+    #contact p {
+        font-size: 1.1rem;
+    }
+
+    #social a img {
+        width: 10%;
+        padding: 0 3%;
+    }
+
+    /*=============footer-end============*/
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 560px) {
+    /*=============header============*/
+    header {
+        height: 70px;
+    }
+
+    /*=============header-img============*/
+    header div {
+        width: 45%;
+    }
+
+    /*=============header-nav============*/
+    #menu {
+        margin: 2% 0 0;
+        padding-top: 2%;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    /*=============header-end============*/
+    /*=============profile============*/
+    #profile {
+        padding-top: 8%;
+    }
+
+    #profile-pic {
+        border: 12px solid #31d181;;
+        width: 65%;
+        height: 300px;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        margin: 2.5%;
+        padding-top: 0;
+        height: 290px;
+    }
+
+    /*=============profile-end============*/
+    /*=============footer============*/
+    footer {
+        height: 90px;
+    }
+
+    #contact p {
+        font-size: 1.1rem;
+    }
+
+    #social a img {
+        width: 8%;
+        padding: 0 3%;
+    }
+
+    /*=============footer-end============*/
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 560px) {
+    /*=============profile============*/
+    #profile-pic {
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width: 561px) and  (max-width: 768px) {
+    /*=============header============*/
+    header {
+
+    }
+
+    /*=============header-img============*/
+    header div {
+        width: 23%;
+        margin: 1% 0 0 3%;
+    }
+
+    /*=============header-nav============*/
+    #menu {
+        height: 50px;
+        margin: 0 2% 0 0;
+    }
+
+    #menu ul {
+        text-align: center;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        font-size: 0.85rem;
+        margin: 0;
+    }
+
+    #menu ul li a {
+        padding: 8px 8px;
+    }
+
+    /*=============header-end============*/
+    /*=============sidebar============*/
+    #sidebar {
+        width: 30%;
+        /*display: none;*/
+    }
+
+    /*=============sidebar-end============*/
+    /*=============profile============*/
+    #profile {
+        margin-top: 5%;
+    }
+
+    #profile-pic {
+        padding-top: 2%;
+        width: 45%;
+        height: 280px;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        height: 310px;
+    }
+    /*=============about-me============*/
+
+    #about-me {
+        margin-top: 10%;
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    #about-me > h6 {
+        margin: 10px 0;
+        font-size: 1.4rem;
+    }
+
+    #about-me > h3 {
+        margin: 20px 0 10px;
+        text-align: left;
+    }
+
+    .article {
+        margin: auto;
+        width: 100%;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    #about-1{
+        position: relative;
+        left: 0;
+        top: 0;
+        line-height: 1.3;
+    }
+
+    #about-2{
+        position: relative;
+        line-height: 1.3;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+
+    /*=============about-me-end============*/
+
+    /*=============profile-end============*/
+    /*=============footer============*/
+    /*=============footer============*/
+    footer {
+        margin-bottom: -50px;
+    }
+
+    #contact {
+        width: 50%;
+    }
+
+    #contact p {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    #social {
+        width: 45%;
+        text-align: center;
+    }
+
+    #social p {
+        display: none;
+    }
+
+    #social a img {
+        width: 10%;
+        margin-top: 1%;
+        padding: 4% 3% 0 0;
+    }
+
+    /*=============footer-end============*/
+
+}
+
+@media only screen and (min-width: 660px) and (max-width: 768px) {
+
+    /*=============profile============*/
+    #profile {
+    }
+
+    #profile-pic {
+        width: 45%;
+        height: 280px;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        height: 320px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /*=============header============*/
+    header {
+        /*background: linear-gradient(to bottom left, #31d181, #1DCAA2);*/
+    }
+
+    /*=============header-img============*/
+    header div {
+        width: 23%;
+        margin: 1% 0 0 3%;
+    }
+
+    /*=============header-nav============*/
+    #menu {
+        height: 50px;
+        margin: 0 2% 0 0;
+    }
+
+    #menu ul {
+        text-align: center;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    #menu ul li a {
+        padding: 8px 8px;
+    }
+
+    /*=============header-end============*/
+    /*=============sidebar============*/
+    #sidebar {
+        width: 30%;
+        /*display: none;*/
+    }
+
+    /*=============sidebar-end============*/
+    /*=============profile============*/
+    #profile {
+        margin-top: 5%;
+    }
+
+    #profile-pic {
+        padding-top: 2%;
+        width: 40%;
+        height: 300px;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        height: 340px;
+    }
+    /*=============about-me============*/
+
+    #about-me {
+        margin-top: 10%;
+        margin-left: 48%;
+        width: 52%;
+    }
+
+    #about-me > h6 {
+        margin: 10px 0;
+        font-size: 1.4rem;
+    }
+
+    #about-me > h3 {
+        margin: 20px 0 10px;
+        text-align: left;
+    }
+
+    .article {
+        margin: auto;
+        width: 100%;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    #about-1{
+        position: relative;
+        left: 0;
+        top: 0;
+        line-height: 1.3;
+    }
+
+    #about-2{
+        position: relative;
+        line-height: 1.3;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+
+    /*=============about-me-end============*/
+    /*=============intro-end============*/
+    /*=============footer============*/
+    footer {
+        margin-bottom: -150px;
+    }
+
+    #contact {
+        width: 30%;
+    }
+
+    #contact p {
+        font-size: 1.1rem;
+    }
+
+    #social {
+        width: 40%;
+        text-align: left;
+    }
+
+    #social p {
+    }
+
+    #social a img {
+        width: 10%;
+        margin-top: 1%;
+        padding: 4% 3% 0 0;
+    }
+
+    /*=============footer-end============*/
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+
+    /*=============profile============*/
+    #profile {
+    }
+
+    #profile-pic {
+        width: 35%;
+        height: 300px;
+        padding-top: 2%;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        height: 340px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1240px) {
+    /*=============profile============*/
+    #profile {
+        /*margin-top: 2%;*/
+    }
+
+    #profile-pic {
+        width: 30%;
+        height: 330px;
+        padding-top: 2%;
+    }
+
+    #profile-pic img {
+        width: 95%;
+        height: 375px;
+    }
+    /*=============about-me============*/
+
+    #about-me {
+        margin-top: 10%;
+        margin-left: 42%;
+        width: 58%;
+    }
+
+    #about-me > h6 {
+        margin: 10px 0;
+        font-size: 1.4rem;
+    }
+
+    #about-me > h3 {
+        margin: 20px 0 10px;
+        text-align: left;
+    }
+
+    .article {
+        margin: auto;
+        width: 100%;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    #about-1{
+        position: relative;
+        left: 0;
+        top: 0;
+        line-height: 1.3;
+    }
+
+    #about-2{
+        position: relative;
+        line-height: 1.3;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+
+    /*=============about-me-end============*/
+
+    /*=============footer============*/
+    #social {
+        width: 30%;
+        text-align: left;
+    }
+
+}

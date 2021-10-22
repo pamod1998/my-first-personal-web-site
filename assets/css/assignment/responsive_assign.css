@@ -1,0 +1,619 @@
+
+/*responsive*/
+/*============================*/
+@media all and (max-width: 1366px) {
+    body > nav > img {
+        position: relative;
+        top: 156px;
+        width: 311.500px;
+        height: 398.063px;
+        padding-left: 16px;
+        padding-right: 16px;
+        pointer-events: none;
+    }
+
+    body > section {
+        width: 1150.500px;
+        right: 25px;
+        background-color: white;
+        border-radius: 15px;
+        border: 2px solid #1DCAA2;
+        position: relative;
+        margin-right: 100px;
+        height: 450px;
+        overflow: auto;
+        padding-top: 5px;
+        left: 173px;
+        margin-top: 6px;
+        opacity: unset;
+    }
+
+    body > header > img {
+        position: absolute;
+        left: 59px;
+        height: 200px;
+        top: -58px;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    body > header > ul {
+        margin: 0;
+        list-style: none;
+        top: 27px;
+        position: absolute;
+        right: 35px;
+    }
+
+    body > section > div > h6 {
+        font-size: 14px;
+        font-weight: 400;
+        width: 138px;
+        text-align: center;
+        background-color: #313131;
+        color: ghostwhite;
+        margin-top: 20px;
+        margin-left: 27px;
+        margin-bottom: 10px;
+    }
+
+    body > section > div > h2 {
+        margin-top: 0;
+        font-size: 40px;
+        margin-left: 23px;
+        color: #31d181;
+        font-weight: 800;
+    }
+
+    body > section > div > div {
+        display: inline-flex;
+        overflow: auto;
+    }
+
+    body > section > div > div > div {
+        position: relative;
+        display: inline-flex;
+        width: 344.438px;;
+        color: transparent;
+    }
+
+    body > section > div > div > div > h6 {
+        width: 344.438px;;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 10px;
+        padding-top: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    body > section > div > div > div:hover {
+        display: inline-flex;
+        position: relative;
+        background-color: #313131;
+        width: 344.438px;
+        -webkit-animation: hover 1s ease-in-out;
+    }
+
+    body > section > div > div > div > h6:hover {
+        color: white;
+        margin-left: 15px;
+        width: 344.438px;
+        -webkit-animation: hover 1s ease-in-out;
+    }
+
+    @-webkit-keyframes hover {
+        0% {
+            opacity: 0.4;
+        }
+    }
+
+    body > section > div > div > div > h6 > a {
+        text-decoration: none;
+        font-weight: 600;
+        width: 90px;
+        color: transparent;
+        font-size: 15px;
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        border: transparent;
+        text-align: center;
+    }
+
+    body > section > div > div > div > h6 > a:hover {
+        text-decoration: none;
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        width: 90px;
+        color: ghostwhite;
+        border: 2px solid #b5ffbd;
+        border-radius: 5px;
+        text-align: center;
+        -webkit-animation: hover 1s ease-in-out;
+    }
+
+    body > section > div > div:nth-child(3) {
+        background-image: url("../images/1.jpg");
+        background-size: cover;
+        position: relative;
+        width: 344.453px;
+        height: 243.281px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(4) {
+        background-image: url("../images/2.jpg");
+        background-size: cover;
+        position: relative;
+        width: 344.453px;
+        height: 243.281px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(5) {
+        background-image: url("../images/3.jpg");
+        background-size: cover;
+        position: relative;
+        width: 344.453px;
+        height: 243.281px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(6) {
+        background-image: url("../images/4.jpg");
+        background-size: cover;
+        position: relative;
+        width: 344.453px;
+        height: 243.281px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(7) {
+        background-image: url("../images/5.jpg");
+        background-size: cover;
+        position: relative;
+        width: 344.453px;
+        height: 243.281px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(8) {
+        background-image: url("../images/6.jpg");
+        background-size: cover;
+        position: relative;
+        width: 344.453px;
+        height: 243.281px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    body > header > ul {
+        margin: 0;
+        list-style: none;
+        top: 27px;
+        position: absolute;
+        right: -282px;
+    }
+
+    body > section {
+        width: 1150.500px;
+        right: 25px;
+        background-color: white;
+        border-radius: 15px;
+        border: 2px solid #1DCAA2;
+        position: relative;
+        margin-right: 100px;
+        height: 450px;
+        overflow: auto;
+        padding-top: 5px;
+        left: 116px;
+        margin-top: 6px;
+        opacity: unset;
+    }
+
+    footer > p:nth-child(2) {
+        position: absolute;
+        font-size: 15px;
+        right: 18px;
+    }
+
+    body > footer > div > a:first-child > img {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        right: -32px;
+        bottom: 0;
+    }
+
+    body > footer > div > a:nth-child(2) > img {
+        position: absolute;
+        right: -72px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+
+    body > footer > div > a:nth-child(3) > img {
+        position: absolute;
+        right: -106px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+
+    body > footer > div > a:nth-child(4) > img {
+        position: absolute;
+        right: -140px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+
+    body > footer > div > a:nth-child(5) > img {
+        position: absolute;
+        right: -176px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body > header > ul {
+        margin: 0;
+        list-style: none;
+        top: 27px;
+        font-size: 18px;
+        position: absolute;
+        right: -463px;
+    }
+
+    footer > p:nth-child(2) {
+        position: absolute;
+        font-size: 15px;
+        right: -225px;
+    }
+
+    body > section {
+        width: 1150.500px;
+        right: 25px;
+        background-color: white;
+        border-radius: 15px;
+        border: 2px solid #1DCAA2;
+        position: relative;
+        margin-right: 100px;
+        height: 450px;
+        overflow: auto;
+        padding-top: 5px;
+        left: 56px;
+        margin-top: 6px;
+        opacity: unset;
+    }
+
+    body > footer > div > a:first-child > img {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        right: -32px;
+        bottom: 0;
+    }
+
+    body > footer > div {
+        position: absolute;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 25px;
+        width: 100%;
+        margin-left: 238px;
+    }
+
+    body > footer > div > a:nth-child(2) > img {
+        position: absolute;
+        right: -72px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+
+    body > footer > div > a:nth-child(3) > img {
+        position: absolute;
+        right: -106px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+
+    body > footer > div > a:nth-child(4) > img {
+        position: absolute;
+        right: -140px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+
+    body > footer > div > a:nth-child(5) > img {
+        position: absolute;
+        right: -176px;
+        bottom: 0;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+/*=============================================*/
+@media all and (max-width: 425px) {
+    body > header {
+        position: relative;
+        height: 85px;
+        left: 0;
+        width: 298%;
+        background-color: #31d181;
+    }
+
+    body > header > ul > li > a {
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 23px;
+        color: #7F7F7F;
+        font-style: normal;
+        padding: 5px 20px;
+        text-transform: capitalize;
+    }
+
+    body > header > ul {
+        right: 100px;
+        padding-left: 0;
+        top: 35px;
+        width: 543px;
+        height: auto;
+        padding-right: 5px;
+    }
+
+    body > header > img {
+        position: absolute;
+        height: 200px;
+        top: -46px;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    nav {
+        visibility: hidden;
+        position: absolute;
+        height: 100%;
+    }
+
+    body > section {
+        width: 1195.5px;
+        right: 25px;
+        background-color: white;
+        border-radius: 15px;
+        top: 15px;
+        border: 2px solid #1DCAA2;
+        position: relative;
+        margin-right: 100px;
+        height: 1145px;
+        overflow: auto;
+        padding-top: 5px;
+        left: 56px;
+        margin-top: 6px;
+        opacity: unset;
+    }
+
+    body > section > div > h6 {
+        font-size: 27px;
+        font-weight: 600;
+        width: 247px;
+        text-align: center;
+        background-color: #313131;
+        color: ghostwhite;
+        margin-top: 20px;
+        margin-left: 27px;
+        margin-bottom: 12px;
+        line-height: normal;
+    }
+
+    body > section > div > h2 {
+        margin-top: 18px;
+        font-size: 50px;
+        margin-left: 23px;
+        color: #31d181;
+        font-weight: 800;
+    }
+
+    body > section > div > div:nth-child(3) {
+        background-size: cover;
+        position: relative;
+        width: 1116.453px;
+        height: 596px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(4) {
+        background-size: cover;
+        position: relative;
+        width: 1116.453px;
+        height: 596px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(5) {
+        background-size: cover;
+        position: relative;
+        width: 1116.453px;
+        height: 596px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(6) {
+        background-size: cover;
+        position: relative;
+        width: 1116.453px;
+        height: 596px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(7) {
+        background-size: cover;
+        position: relative;
+        width: 1116.453px;
+        height: 596px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    body > section > div > div:nth-child(8) {
+        background-size: cover;
+        position: relative;
+        width: 1116.453px;
+        height: 596px;
+        margin: 13px;
+        border: 2px solid grey;
+    }
+
+    footer {
+        position: relative;
+        height: 40px;
+        padding-top: 202px;
+        padding-bottom: 3px;
+    }
+
+    footer > p:first-child {
+        position: absolute;
+        text-align: center;
+        color: #000000;
+        font-size: 23px;
+        border: 2px solid #31d181;
+        padding-left: 0px;
+        left: 2px;
+        background-color: #31d181;
+        bottom: 104px;
+        height: 40px;
+        width: 1291px;
+        padding-top: 0px;
+        line-height: 1.7;
+    }
+
+    footer > p:nth-child(2) {
+        position: absolute;
+        font-size: 23px;
+        right: -121px;
+        top: 143px;
+        font-weight: 800;
+        font-style: normal;
+        width: max-content;
+    }
+
+    body > footer > div {
+        position: absolute;
+        left: 241px;
+        /* bottom: -17px; */
+        top: 150px;
+    }
+
+    body > footer > div > a:first-child > img {
+        position: absolute;
+        height: 37px;
+        width: 37px;
+        right: 180px;
+        bottom: -6px;
+    }
+
+    body > footer > div > a:nth-child(2) > img {
+        position: absolute;
+        right: 128px;
+        bottom: -6px;
+        height: 37px;
+        width: 37px;
+    }
+
+    body > footer > div > a:nth-child(3) > img {
+        position: absolute;
+        right: 78px;
+        bottom: -6px;
+        height: 37px;
+        width: 37px;
+    }
+
+    body > footer > div > a:nth-child(4) > img {
+        position: absolute;
+        right: 31px;
+        bottom: -6px;
+        height: 37px;
+        width: 37px;
+    }
+
+    body > footer > div > a:nth-child(5) > img {
+        position: absolute;
+        right: -17px;
+        bottom: -6px;
+        height: 37px;
+        width: 37px;
+    }
+
+    /*============================================*/
+    body > section > div > div > div {
+        position: relative;
+        display: inline-flex;
+        width: 1116.453px;
+        color: transparent;
+    }
+
+    body > section > div > div > div > h6 {
+        width: 1100px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 10px;
+        padding-top: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    body > section > div > div > div:hover {
+        display: inline-flex;
+        position: relative;
+        background-color: #313131;
+        width: 1116.45px;
+    }
+
+    body > section > div > div > div > h6:hover {
+        color: white;
+        /* margin-left: 54px; */
+        text-align: center;
+        width: inherit;
+        line-height: initial;
+        font-size: 35px;
+        font-family: inherit;
+    }
+
+    body > section > div > div > div > h6 > a:hover {
+        text-decoration: none;
+        position: absolute;
+        top: 179px;
+        line-height: 2;
+        left: 542px;
+        font-size: 48px;
+        width: 320px;
+        height: 100px;
+        color: ghostwhite;
+        border: 2px solid #b5ffbd;
+        border-radius: 28px;
+        text-align: center;
+    }
+}
